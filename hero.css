@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-attachment: fixed; /* Parallax effect */
 }
 
 .hero-overlay {
@@ -31,12 +32,14 @@
     margin-bottom: 20px;
     color: #FFD700; /* Gold color to stand out */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Subtle text shadow */
+    font-family: 'Merriweather', serif; /* Unique, classy font */
 }
 
 .hero p {
     font-size: 24px;
     margin-bottom: 30px;
     color: #F5F5F5;
+    font-family: 'Open Sans', sans-serif; /* Clean, modern font */
 }
 
 .hero .cta-button {
@@ -55,6 +58,17 @@
     background-color: #A0522D; /* Slightly lighter brown on hover */
 }
 
-.hero .hero-image {
-    display: none; /* Hiding the image as the background image is used */
+/* Add some padding to the sections below the hero to test the parallax effect */
+section {
+    padding: 100px 20px;
+}
+
+#about {
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+#services {
+    background-color: #EEE8AA;
+    color: #333;
 }

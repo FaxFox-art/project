@@ -1,0 +1,38 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul.open {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}

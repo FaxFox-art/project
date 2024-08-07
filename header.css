@@ -5,11 +5,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%; /* Ensure the navbar spans 100% width */
     position: fixed;
-    width: 100%;
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+header .container {
+    width: 100%;
+    max-width: 1200px; /* Optional max-width for better alignment on larger screens */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo-container {
@@ -33,15 +42,13 @@ header {
 nav {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    justify-content: flex-end;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 0;
     flex-grow: 1;
 }

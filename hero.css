@@ -35,6 +35,15 @@
     font-family: 'Merriweather', serif; /* Unique, classy font */
 }
 
+.hero h1 .highlight {
+    display: inline-block;
+    color: #FF4500; /* Bright orange for emphasis */
+    font-size: 1.2em;
+    transform: rotate(-5deg);
+    border-bottom: 2px solid #FF4500;
+    padding-bottom: 5px;
+}
+
 .hero p {
     font-size: 24px;
     margin-bottom: 30px;
@@ -56,6 +65,21 @@
 
 .hero .cta-button:hover {
     background-color: #A0522D; /* Slightly lighter brown on hover */
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero .cta-button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
 }
 
 /* Add some padding to the sections below the hero to test the parallax effect */

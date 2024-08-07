@@ -74,6 +74,7 @@ nav ul.open {
     left: 0;
     width: 100%;
     background-color: #8B4513;
+    text-align: center;
 }
 
 @media (max-width: 768px) {

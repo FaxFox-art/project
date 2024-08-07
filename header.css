@@ -12,7 +12,17 @@ header {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
     font-size: 24px;
     font-weight: bold;
     font-family: 'Merriweather', serif; /* Unique, classy font */
@@ -23,14 +33,17 @@ header {
 nav {
     display: flex;
     align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0;
+    flex-grow: 1;
 }
 
 nav ul li {

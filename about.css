@@ -52,9 +52,10 @@
     text-align: center;
 }
 
-.feature img {
-    height: 80px;
+.feature i {
+    font-size: 80px;
     margin-bottom: 20px;
+    color: #8B4513; /* Matching the navbar color */
 }
 
 .feature h3 {

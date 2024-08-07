@@ -1,0 +1,32 @@
+.about {
+    background-color: #EEE8AA; /* Light yellow for a warm feel */
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8B4513; /* Matching the navbar color */
+    font-family: 'Merriweather', serif; /* Unique, classy font */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif; /* Clean, modern font */
+}
+
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adding a shadow for depth */
+}

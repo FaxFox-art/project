@@ -3,7 +3,7 @@ header {
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the navbar */
     align-items: center;
     width: 100%; /* Ensure the navbar spans 100% width */
     position: fixed;
@@ -15,10 +15,10 @@ header {
 header .container {
     width: 100%;
     max-width: 1200px; /* Optional max-width for better alignment on larger screens */
-    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px; /* Ensure proper padding for small screens */
 }
 
 .logo-container {
@@ -51,6 +51,7 @@ nav ul {
     justify-content: center;
     margin: 0;
     flex-grow: 1;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
 }
 
 nav ul li {
